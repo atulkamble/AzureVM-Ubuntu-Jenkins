@@ -10,7 +10,7 @@ A clean, step‑by‑step guide to launch a Linux VM on Azure, install Jenkins w
 * **VM name:** `jenkins`
 * **Auth:** SSH key (`jenkins.pem`)
 * **NSG inbound:** TCP **8080** (Jenkins UI), **22** (SSH)
-* **OS disk:** Premium SSD **50 GB**
+* **OS disk:** Premium SSD **64 GB**
 
 > Result: Jenkins available at `http://<azure-vm-public-ip>:8080` with Docker, Git, and Java ready for pipelines.
 
